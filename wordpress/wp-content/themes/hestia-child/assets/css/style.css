@@ -1,0 +1,139 @@
+:root{
+    --white: #c1c1c1;
+    --back: #000000;
+}
+
+
+body { 
+    background-color: #001546;
+}
+ 
+.header-filter-gradient {
+    background: #563173;
+}
+
+.page-header .container .hestia-title{
+    font-size: 10rem;
+    
+}
+h2.hestia-title {
+    color:  var(--white);
+}
+.home .main-raised section:first-of-type {
+    border-radius: 10px 10px 0 0;;
+    border-style: solid;
+}
+
+.big-title-slider-content{
+    margin-left: -9vw;
+}
+.hestia-blogs {
+    background-color: #091f55;
+    border-color:  #563173;
+}
+
+.hestia-blogs article .category a {
+    color:  transparent;
+}
+
+
+.entry-title a {
+    color:  var(--white) !important;
+    font-size: 2em;
+}
+
+textarea#wpforms-71-field_2 {
+    background-color: #ffffff;
+}
+
+.card, .card-no-width {
+    background: none;
+    color: #ffffff;
+}
+
+label.wpforms-field-label {
+    color: #ffffff;
+}
+
+.card-title {
+    color: #563173;
+}
+
+.category a {
+    color: #337ab7 !important;
+    font-size: 1.6rem;
+}
+
+.hestia-blogs h6.category {
+    display: none;
+}
+.related-posts h6.category {
+    display: none;
+}
+
+button#wpforms-submit-71 {
+    padding: 1rem;
+    font-size: 1.9rem;
+}
+
+/*h2.mi-widget-titulo {
+    margin: 0;
+    padding: 0 0 2rem 0;
+    text-align: center;
+}*/
+
+.card-description{
+    color: var(--white);
+    font-size: 1.6rem;
+}
+
+.nav-hestia-child{
+    display: none;
+}
+
+.nav-hestia-child ul{
+    list-style: none;
+    font-size: 2.6rem;
+    padding: 0;
+}
+
+.contactus {
+    font-size: 25px;
+}
+
+footer.footer.footer-black {
+    background: #563173;
+}
+
+.card .header-primary{
+    background: #563173;
+}
+
+@media screen and (min-width:600px) {
+    .nav-hestia-child{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        position: fixed;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        width: 12rem;
+        /*background: var(--white);*/
+        z-index: 4;
+        box-shadow: 0 0 10px var(--back);
+        padding: 4rem 1rem;
+    }
+
+    .main {
+        margin-left: 15rem;
+        background: transparent;           
+    }
+    
+    .slicknav_menu{
+        display: none;
+    }
+}
+
+
