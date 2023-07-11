@@ -1,0 +1,29 @@
+.mi-widget{
+    border: 1px solid #563173;
+    border-radius: 25px;
+    box-shadow: 0 0 20px #000000;
+    padding: 2rem;
+    font-size: 8rem;
+    text-align: center;
+}
+
+.mi-widget-titulo{
+    margin: 0;
+    padding: 0 0 2rem 0;
+    text-align: center;
+    color: #ffffff;
+}
+
+.mi-widget-imagen{
+    max-width: 100%;
+    height: auto;
+}
+
+
+.mi-widget-descripcion{
+    margin: 0;
+    font-size: 2.6rem;
+    color: #ffffff;
+    padding: 2rem 0 2rem 0;
+    text-align: center;
+}
